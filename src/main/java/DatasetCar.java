@@ -2,20 +2,28 @@ import java.io.*;
 import java.util.*;
 
 public class DatasetCar {
-	private String path = "../../../car.data.txt";
+	private String path = "../../../../car.data.txt";
 	private ArrayList<Car> cars = new ArrayList<Car>();
 
-	public DatasetCar() {}
+	public DatasetCar() {
+		File currDir = new File(".");
+		String dir = currDir.getAbsolutePath().substring(0, currDir.getAbsolutePath().length()-1);
+		this.path = (dir.split("knnalgorithm"))[0]+"knnalgorithm/car.data.txt";
+		System.out.println("Dataset path is: " + this.path);
+		this.readDatasetFile();
+	}
 
 	public DatasetCar(String pathDataset) {
 		if(pathDataset != null && pathDataset.length() > 0) {
 			this.path = pathDataset;
 		}
+		System.out.println("Dataset path is: " + this.path);
+		this.readDatasetFile();
 	}
 
-	public void readDatasetFile(String path) {
+	public void readDatasetFile() {
 		try {
-			BufferedReader br = new BufferedReader(new FileReader(path));
+			BufferedReader br = new BufferedReader(new FileReader(this.path));
 		    String line = br.readLine();
 
 		    while (line != null) {
@@ -28,14 +36,25 @@ public class DatasetCar {
 		}
 	}
 
-	public ArrayList<Car> getDataset() {
-		this.readDatasetFile("car.data.txt");
+	public void removeCar(Car car) {
+		this.cars.remove(car);
+	}
+
+	public Car getCarWithAttrs(int[] attrs) {
+		for(Car car : this.cars) {
+			if(Arrays.equals(car.getAttributes(), attrs)) {
+				return car;
+			}
+		}
+		return null;
+	}
+
+	public ArrayList<Car> getCars() {
 		return this.cars;
 	}
 
 	public static void main(String[] args) {
 		DatasetCar dataset = new DatasetCar();
-		dataset.readDatasetFile("car.data.txt");
 	}
 }
 

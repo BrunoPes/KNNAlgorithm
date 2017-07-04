@@ -1,0 +1,84 @@
+>Dataset path is: /Users/dev/Desktop/knnalgorithm/car.data.txt
+#------------- LOGGER -------------
+(Car: {0,0,0,0,1,1} Dist: 1.000 C: UNACC
+(Car: {0,0,0,1,0,1} Dist: 1.000 C: UNACC
+(Car: {0,0,0,1,1,0} Dist: 1.000 C: UNACC
+(Car: {0,0,0,1,1,2} Dist: 1.000 C: UNACC
+(Car: {0,0,0,1,2,1} Dist: 1.000 C: UNACC
+(Car: {0,0,0,2,1,1} Dist: 1.000 C: UNACC
+(Car: {0,0,1,1,1,1} Dist: 1.000 C: UNACC
+(Car: {0,1,0,1,1,1} Dist: 1.000 C: UNACC
+(Car: {1,0,0,1,1,1} Dist: 1.000 C: UNACC
+Classified as: UNACC
+>Dataset path is: /Users/dev/Desktop/knnalgorithm/car.data.txt
+#------------- LOGGER -------------
+&Car: {1,2,0,1,2,2} Dist: 1.000 C: ACC
+&Car: {2,1,0,1,2,2} Dist: 1.000 C: ACC
+(Car: {2,2,0,0,2,2} Dist: 1.000 C: UNACC
+&Car: {2,2,0,1,1,2} Dist: 1.000 C: ACC
+&Car: {2,2,0,1,2,1} Dist: 1.000 C: ACC
+(Car: {2,2,0,2,2,2} Dist: 1.000 C: VGOOD
+(Car: {2,2,1,1,2,2} Dist: 1.000 C: VGOOD
+(Car: {2,3,0,1,2,2} Dist: 1.000 C: VGOOD
+(Car: {3,2,0,1,2,2} Dist: 1.000 C: VGOOD
+Classified as: ACC
+>Dataset path is: /Users/dev/Desktop/knnalgorithm/car.data.txt
+#------------- LOGGER -------------
+(Car: {0,0,0,1,1,0} Dist: 1.000 C: UNACC
+(Car: {0,0,1,0,1,0} Dist: 1.000 C: UNACC
+(Car: {0,0,1,1,0,0} Dist: 1.000 C: UNACC
+(Car: {0,0,1,1,1,1} Dist: 1.000 C: UNACC
+(Car: {0,0,1,1,2,0} Dist: 1.000 C: UNACC
+(Car: {0,0,1,2,1,0} Dist: 1.000 C: UNACC
+(Car: {0,0,2,1,1,0} Dist: 1.000 C: UNACC
+(Car: {0,1,1,1,1,0} Dist: 1.000 C: UNACC
+(Car: {1,0,1,1,1,0} Dist: 1.000 C: UNACC
+Classified as: UNACC
+>Dataset path is: /Users/dev/Desktop/knnalgorithm/car.data.txt
+#------------- LOGGER -------------
+&Car: {1,3,0,1,0,2} Dist: 1.000 C: ACC
+&Car: {2,2,0,1,0,1} Dist: 1.414 C: ACC
+&Car: {2,2,0,1,0,2} Dist: 1.000 C: ACC
+(Car: {2,3,0,0,0,2} Dist: 1.000 C: UNACC
+&Car: {2,3,0,1,0,1} Dist: 1.000 C: ACC
+'Car: {2,3,0,1,1,2} Dist: 1.000 C: GOOD
+(Car: {2,3,0,2,0,2} Dist: 1.000 C: UNACC
+'Car: {2,3,1,1,0,2} Dist: 1.000 C: GOOD
+'Car: {3,3,0,1,0,2} Dist: 1.000 C: GOOD
+Classified as: ACC
+>Dataset path is: /Users/dev/Desktop/knnalgorithm/car.data.txt
+#------------- LOGGER -------------
+(Car: {0,0,2,2,0,2} Dist: 1.000 C: UNACC
+(Car: {0,0,3,1,0,1} Dist: 1.414 C: UNACC
+(Car: {0,0,3,1,0,2} Dist: 1.000 C: UNACC
+(Car: {0,0,3,1,1,2} Dist: 1.414 C: UNACC
+(Car: {0,0,3,2,0,1} Dist: 1.000 C: UNACC
+(Car: {0,0,3,2,1,1} Dist: 1.414 C: UNACC
+(Car: {0,0,3,2,1,2} Dist: 1.000 C: UNACC
+(Car: {0,1,3,2,0,2} Dist: 1.000 C: UNACC
+(Car: {1,0,3,2,0,2} Dist: 1.000 C: UNACC
+Classified as: UNACC
+>Dataset path is: /Users/dev/Desktop/knnalgorithm/car.data.txt
+#------------- LOGGER -------------
+(Car: {1,0,0,1,1,2} Dist: 1.000 C: UNACC
+(Car: {2,0,0,0,1,2} Dist: 1.000 C: UNACC
+&Car: {2,0,0,1,0,2} Dist: 1.000 C: ACC
+(Car: {2,0,0,1,1,1} Dist: 1.000 C: UNACC
+&Car: {2,0,0,1,2,2} Dist: 1.000 C: ACC
+&Car: {2,0,0,2,1,2} Dist: 1.000 C: ACC
+&Car: {2,0,1,1,1,2} Dist: 1.000 C: ACC
+&Car: {2,1,0,1,1,2} Dist: 1.000 C: ACC
+&Car: {3,0,0,1,1,2} Dist: 1.000 C: ACC
+Classified as: ACC
+>Dataset path is: /Users/dev/Desktop/knnalgorithm/car.data.txt
+#------------- LOGGER -------------
+(Car: {2,3,3,1,2,2} Dist: 1.000 C: VGOOD
+(Car: {3,2,2,1,2,2} Dist: 1.414 C: VGOOD
+(Car: {3,2,3,0,2,2} Dist: 1.414 C: UNACC
+(Car: {3,2,3,1,2,2} Dist: 1.000 C: VGOOD
+(Car: {3,3,2,1,2,2} Dist: 1.000 C: VGOOD
+(Car: {3,3,3,0,2,2} Dist: 1.000 C: UNACC
+(Car: {3,3,3,1,1,2} Dist: 1.000 C: VGOOD
+'Car: {3,3,3,1,2,1} Dist: 1.000 C: GOOD
+(Car: {3,3,3,2,2,2} Dist: 1.000 C: VGOOD
+Classified as: VGOOD
